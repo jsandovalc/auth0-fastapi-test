@@ -1,0 +1,4 @@
+fastapi
+python-jose[cryptography]
+httpx
+uvicorn[standard]
