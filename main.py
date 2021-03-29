@@ -21,6 +21,10 @@ async def home(authorization: Optional[str] = Header(None)):
     Every authenticated request must perform this check. It can go as a
     decorator, as a function or maybe, as a dependency injected named user.
 
+    This is not production code!!!!!!!!!!!!
+
+    I repeat: this is not production ready code!!!!!!!
+
     """
     auth = authorization
 
